@@ -571,6 +571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Esgoto
   esgotoParticleSystem: {fileID: 4463748228229662024}
   mercurioTime: 5
+  mercurio: {fileID: 8714280058470999628}
 --- !u!198 &4463748228229662024 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1136452292683598872, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}

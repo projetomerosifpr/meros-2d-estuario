@@ -78,7 +78,6 @@
 		<property name="length">
 			<value>1.992</value>
 		</property>
-		<property name="name" />
 		<relationship name="modulators">
 			<destination>{ccaa53b9-a8bc-47b4-be85-4ea3849d7c80}</destination>
 			<destination>{18b12385-e2b3-43e2-a009-f1ce44b4b85f}</destination>
@@ -121,7 +120,7 @@
 			<value>24</value>
 		</property>
 		<property name="volume">
-			<value>-11</value>
+			<value>-5.5</value>
 		</property>
 		<property name="pitch">
 			<value>-2</value>
