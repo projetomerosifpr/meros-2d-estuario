@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 2874200547686106488}
   - component: {fileID: 3197222881485785348}
   - component: {fileID: 3257486952258056100}
+  - component: {fileID: 4663627744218740862}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -201,6 +202,7 @@ MonoBehaviour:
   entulhos: {fileID: 2874200547686106488}
   tinta: {fileID: 1509116805047420428}
   pesca: {fileID: 3257486952258056100}
+  rede: {fileID: 4663627744218740862}
 --- !u!95 &7828779601868086440
 Animator:
   serializedVersion: 7
@@ -398,6 +400,37 @@ MonoBehaviour:
       Data3: 2025616289
       Data4: -579012322
     Path: event:/pesca
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &4663627744218740862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732007218500089558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -199005681
+      Data2: 1262241921
+      Data3: 1146951101
+      Data4: 2095288938
+    Path: event:/rede
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
