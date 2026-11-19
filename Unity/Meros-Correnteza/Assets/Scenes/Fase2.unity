@@ -1004,11 +1004,54 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8808170208125187567, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+      propertyPath: rede
+      value: 
+      objectReference: {fileID: 1787147803}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1732007218500089558, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1787147803}
   m_SourcePrefab: {fileID: 100100000, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+--- !u!1 &1787147802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1732007218500089558, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+  m_PrefabInstance: {fileID: 1787147801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1787147803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787147802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -199005681
+      Data2: 1262241921
+      Data3: 1146951101
+      Data4: 2095288938
+    Path: event:/rede
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1807919762
 PrefabInstance:
   m_ObjectHideFlags: 0
