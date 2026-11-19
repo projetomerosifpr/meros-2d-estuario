@@ -877,7 +877,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.y
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: genMedDistance.x
@@ -987,14 +995,6 @@ PrefabInstance:
     - target: {fileID: 7396584983847343059, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586010314030415824, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
-      propertyPath: boundY.y
-      value: 0.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090545980229236923, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
-      propertyPath: m_Mass
-      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

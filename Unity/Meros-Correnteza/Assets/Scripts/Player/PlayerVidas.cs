@@ -91,6 +91,7 @@ public class PlayerVidas : MonoBehaviour
                 case "anzolB":
                     MudarVida(entulhoColider.GetDano());
                     Debug.Log("Anzol do bom "+entulhoColider.GetDano());
+                    pesca.Play();
                     return;
                 case "anzolM":
                     MudarVida(-vidaMax);

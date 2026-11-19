@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 2562318158708718662, guid: 233a5c94538c65e4ab6002a4831c13d9, type: 3}
+  m_Sprite: {fileID: -853763084465353031, guid: b24c029de788c4e41849a36223701029, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,13 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoSprite
   sprites:
   - cor: 
-    sprite: {fileID: 2562318158708718662, guid: 233a5c94538c65e4ab6002a4831c13d9, type: 3}
-  - cor: 
-    sprite: {fileID: -5823149710981524315, guid: 02193ddc43d69a24c99963d22bd949f9, type: 3}
-  - cor: 
-    sprite: {fileID: -3895364919306668062, guid: 7288dd5899c50d24fb3adf462ac6c8ad, type: 3}
-  - cor: 
-    sprite: {fileID: 6993253613473746420, guid: f4919ed27c299ee498785f046f26fc44, type: 3}
+    sprite: {fileID: -853763084465353031, guid: b24c029de788c4e41849a36223701029, type: 3}
 --- !u!1 &8230955965078526140
 GameObject:
   m_ObjectHideFlags: 0

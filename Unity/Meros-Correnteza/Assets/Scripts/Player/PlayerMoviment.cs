@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using FMODUnity;
+
 
 public class PlayerMoviment : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class PlayerMoviment : MonoBehaviour
     [SerializeField] private InputActionAsset InputActions; // Mapa de movimento do player
     private InputAction moveAction;
     private Animator playerAnim;
+    [SerializeField] StudioEventEmitter rede; // som
     private bool isPreso = false; // Verifica se o player pode se mover
     void Start()
     {
@@ -63,6 +66,7 @@ public class PlayerMoviment : MonoBehaviour
         if (!isPreso)
         {
             isPreso = true; // Deixa ele preso
+            rede.Play(); //liga o som
             InputActions.FindActionMap("Player").Disable(); // Desativa o mapa de movimento
             if(debater) // Possibilidade de se debater
             {
