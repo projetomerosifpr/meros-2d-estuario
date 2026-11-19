@@ -71,6 +71,7 @@ MonoBehaviour:
   genYrange: {x: -3.7, y: 2.19}
   genYMobilia: -3
   genYPescador: 2.32
+  genYEsgoto: 0
   fase: 3
   splashUI: {fileID: 0}
   mobiliaOn: 1

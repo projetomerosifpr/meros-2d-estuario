@@ -180,11 +180,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
---- !u!1 &157913743 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9081968024032887758, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
-  m_PrefabInstance: {fileID: 1143455599}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &164077051
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,10 +459,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7586010314030415824, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
-      propertyPath: redeSprite
-      value: 
-      objectReference: {fileID: 157913743}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -630,7 +621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790447178656504930, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -113.00003
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 1263156544568821937, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
       propertyPath: m_Sprite
@@ -815,7 +806,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.y
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: genMedDistance.x

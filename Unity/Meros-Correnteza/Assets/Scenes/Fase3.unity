@@ -747,7 +747,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: genYrange.y
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 5947298078011219919, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Name
