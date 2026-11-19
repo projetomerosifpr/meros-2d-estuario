@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2180297645439740297}
   - component: {fileID: 3930860805152136298}
   - component: {fileID: 8810338879535270435}
+  - component: {fileID: -3639887263696552657}
   m_Layer: 0
   m_Name: Mobilia
   m_TagString: Entulhos
@@ -167,6 +168,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.8234859, y: 4.639061}
   m_EdgeRadius: 0
+--- !u!114 &-3639887263696552657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800550108526001036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1398563889
+      Data2: 1187730166
+      Data3: -1268638537
+      Data4: 480506810
+    Path: event:/Bonk
+  Event: 
+  EventPlayTrigger: 9
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8224459237758518187
 GameObject:
   m_ObjectHideFlags: 0

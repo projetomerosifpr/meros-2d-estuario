@@ -95,6 +95,7 @@ public class PlayerVidas : MonoBehaviour
                 case "anzolM":
                     MudarVida(-vidaMax);
                     Debug.Log("Anzol do mal");
+                    pesca.Play();
                     return;
                 case "mercurio":
                     MudarVida(entulhoColider.GetDano());
