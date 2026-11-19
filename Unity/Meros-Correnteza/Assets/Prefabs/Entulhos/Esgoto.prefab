@@ -489,9 +489,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1136452292683598872, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136452292683598872, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136452292683598872, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136452292683598872, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
       propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 2061997146663715040}
+    - target: {fileID: 3473356475426209181, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c503e72037280ae44b8649146ac1ecc0, type: 2}
     - target: {fileID: 3990497383852340800, guid: ee2219ce0edfc054483dd2c2e42e378f, type: 3}
       propertyPath: m_Name
       value: Mercurio
