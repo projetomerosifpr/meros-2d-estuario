@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f4ce9424-0565-4e79-b4cf-84f5c94cbc74}">
+		<property name="assetPath">
+			<value>384658__morganpurkis__sludge-footsteps-1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.66400000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3187f8e4-0b1e-44ad-9b47-c006fa94259e}</destination>
+		</relationship>
+	</object>
+</objects>

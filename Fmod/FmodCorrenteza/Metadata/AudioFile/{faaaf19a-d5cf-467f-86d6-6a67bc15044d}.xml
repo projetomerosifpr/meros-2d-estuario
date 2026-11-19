@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{faaaf19a-d5cf-467f-86d6-6a67bc15044d}">
+		<property name="assetPath">
+			<value>852478__kolbyrfx__watrundwtr_underwater-bubble-flow-loop_kolbyr_free-sounds.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>98.660239583333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3187f8e4-0b1e-44ad-9b47-c006fa94259e}</destination>
+		</relationship>
+	</object>
+</objects>

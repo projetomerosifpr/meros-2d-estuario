@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{224d342e-c3ef-4680-8d40-959be5dc40a1}">
+		<property name="assetPath">
+			<value>cryptologymedia-chomp-155392.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.99265306122448982</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3187f8e4-0b1e-44ad-9b47-c006fa94259e}</destination>
+		</relationship>
+	</object>
+</objects>

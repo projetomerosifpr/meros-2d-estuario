@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5947298078011219919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7918086653656331289}
+  - component: {fileID: 648847943448677260}
+  - component: {fileID: 1482066756476383456}
+  m_Layer: 0
+  m_Name: TrashManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7918086653656331289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.17646, y: 0.7346, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &648847943448677260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c5f0b476bb7a4484a01a68992da67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashGen
+  objetos:
+  - nome: 0
+    objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+    tempo: {x: 3, y: 5}
+  - nome: 1
+    objectPrefab: {fileID: 500373990431399905, guid: e99231c4bcc1b2b41afbd07633006c1c, type: 3}
+    tempo: {x: 5, y: 8}
+  - nome: 2
+    objectPrefab: {fileID: 1866929808743226936, guid: 7e06a78f25ce49d41b9b87b39416d1fd, type: 3}
+    tempo: {x: 2, y: 4}
+  - nome: 3
+    objectPrefab: {fileID: 6428282200412367488, guid: 037e8893a0b549748b8de3526c37eebb, type: 3}
+    tempo: {x: 5, y: 8}
+  - nome: 4
+    objectPrefab: {fileID: 3800550108526001036, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
+    tempo: {x: 10, y: 15}
+  - nome: 5
+    objectPrefab: {fileID: 2832903144349248751, guid: 88f462e4a7537e743a83d908b0d333da, type: 3}
+    tempo: {x: 15, y: 20}
+  - nome: 6
+    objectPrefab: {fileID: 4587081157021498495, guid: 633c54cd35971ac42b35d5f09e7b2b01, type: 3}
+    tempo: {x: 15, y: 20}
+  genX: 14
+  genYrange: {x: -3.7, y: 2.19}
+  genYMobilia: -3
+  genYPescador: 2.32
+  fase: 3
+  splashUI: {fileID: 0}
+  mobiliaOn: 1
+  pescadorOn: 1
+  esgotOn: 1
+--- !u!114 &1482066756476383456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c69782d6f87b040837c2a45679490f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArvoresGen
+  genX: 13
+  startX: -11
+  genYrange: {x: 2.6, y: 3.6}
+  arvorePrefab: {fileID: 8230955965078526140, guid: c354774e7368ed748b7acc77625f5c54, type: 3}
+  genMedDistance: {x: 5, y: 7}

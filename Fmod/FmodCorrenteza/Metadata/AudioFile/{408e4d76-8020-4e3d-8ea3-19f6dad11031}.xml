@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{408e4d76-8020-4e3d-8ea3-19f6dad11031}">
+		<property name="assetPath">
+			<value>bubblesbetter.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.2599999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3187f8e4-0b1e-44ad-9b47-c006fa94259e}</destination>
+		</relationship>
+	</object>
+</objects>
