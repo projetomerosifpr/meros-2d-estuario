@@ -86,8 +86,8 @@ public class PlayerVidas : MonoBehaviour
                     tinta.Play();
                     break;
                 case "rede":
-                    other.gameObject.GetComponent<PrendeCollider>().OnPrender();
                     rede.Play();
+                    other.gameObject.GetComponent<PrendeCollider>().OnPrender();
                     break;
                 case "anzolB":
                     MudarVida(entulhoColider.GetDano());
