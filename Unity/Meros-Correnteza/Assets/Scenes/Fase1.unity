@@ -180,6 +180,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
+--- !u!1 &157913743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9081968024032887758, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+  m_PrefabInstance: {fileID: 1143455599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &164077051
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +464,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7586010314030415824, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+      propertyPath: redeSprite
+      value: 
+      objectReference: {fileID: 157913743}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

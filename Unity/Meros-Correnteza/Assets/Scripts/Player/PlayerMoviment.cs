@@ -7,6 +7,7 @@ public class PlayerMoviment : MonoBehaviour
     [SerializeField] private int speed; // Velocidade do player
     [SerializeField] private Vector2 boundX = new Vector2(); // Limite X
     [SerializeField] private Vector2 boundY = new Vector2(); // Limite Y
+    [SerializeField] private GameObject redeSprite;
     private Rigidbody2D rigidBody;
     private Vector2 moveInput; // Input de movimento
     [SerializeField] private InputActionAsset InputActions; // Mapa de movimento do player
@@ -36,6 +37,7 @@ public class PlayerMoviment : MonoBehaviour
     {
         Animations(); // Função de animações
         MovePlayer(); // Função de movimento
+        redeSprite.SetActive(isPreso);
     }
     public void MovePlayer() // Movimentação do player
     {
