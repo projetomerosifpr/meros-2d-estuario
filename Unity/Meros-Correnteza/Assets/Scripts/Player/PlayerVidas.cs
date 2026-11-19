@@ -16,7 +16,7 @@ public class PlayerVidas : MonoBehaviour
     private bool imortal = false; // Player pode tomar dano?
     private Animator playerAnim;
     private UI_Manager placar; // Script do placar
-    [SerializeField] StudioEventEmitter pontos,entulhos,tinta,pesca,rede; // som dos pontos, dos entulhos, das tintas, etc
+    [SerializeField] StudioEventEmitter pontos,entulhos,tinta,pesca; // som dos pontos, dos entulhos, das tintas, etc
 
     void Start()
     {
@@ -86,7 +86,6 @@ public class PlayerVidas : MonoBehaviour
                     tinta.Play();
                     break;
                 case "rede":
-                    rede.Play();
                     other.gameObject.GetComponent<PrendeCollider>().OnPrender();
                     break;
                 case "anzolB":
