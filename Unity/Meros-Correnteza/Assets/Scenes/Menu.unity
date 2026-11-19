@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Desvie da REDE para que n\xE3o fique preso"
+  m_text: "Desvie da REDE para n\xE3o ficar preso"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3947,7 +3947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561, y: -340}
+  m_AnchoredPosition: {x: -575, y: -340}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602148986
@@ -4575,9 +4575,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767971253594167614, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_text
-      value: 'Creditos
-
-'
+      value: "Cr\xE9ditos\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.57152086
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.16000001
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_AnchorMin.x
@@ -4585,7 +4591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.0583604
+      value: 0.080889024
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4593,7 +4599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 23
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4601,7 +4607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5476297497227621846, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8672170180252329057, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_text
@@ -4613,7 +4619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851875856887283394, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_Name
-      value: Creditos
+      value: "Cr\xE9ditos"
       objectReference: {fileID: 0}
     - target: {fileID: 8851875856887283394, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_IsActive
@@ -5190,7 +5196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Desvie do PESCADOR N\xC3O CONSIENTE para n\xE3o zerar as vidas"
+  m_text: "Desvie do PESCADOR N\xC3O CONSCIENTE para n\xE3o zerar as vidas"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
